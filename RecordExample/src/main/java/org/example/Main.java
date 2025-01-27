@@ -9,18 +9,18 @@ public class Main {
         studentInfo.setLastName("Doe");
 
         StudentInfoRecord student2 = new StudentInfoRecord(
-                firstName: "Jane",
-                lastName: "Doe",
-                birthMonth: 1,
-                birthDay: 1,
-                birthYear: 2000,
-                studentID: 22876,
-                major: "Culinary",
-                address: "123 Address Street",
-                city: "London",
-                state: "Ohio",
-                zipCode: 88576,
-                country: "France"
+                "Jane",
+                "Doe",
+                1,
+                1,
+                2000,
+                22876,
+                "Culinary",
+                "123 Address Street",
+                "London",
+                "Ohio",
+                88576,
+                "France"
 
         );
         System.out.println(student2.firstName());
