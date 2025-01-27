@@ -13,4 +13,14 @@ public class StudentInfo {
     private String state;
     private String zipCode;
     private String country;
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+    public String getFirstName() {
+        return firstName;
+    }
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 }
